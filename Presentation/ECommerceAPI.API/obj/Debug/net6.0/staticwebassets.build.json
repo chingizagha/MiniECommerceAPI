@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "leoVSQbnpQCMnQK2KQBmXAolIIKBJYeS5oBx2V2Akto=",
+  "Hash": "jSzMQyEgUdEbjkJOgxmcj/JrRIMyDMLGk2Ppx791uT0=",
   "Source": "ECommerceAPI.API",
   "BasePath": "_content/ECommerceAPI.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ECommerceAPI.API\\wwwroot",
+      "Source": "ECommerceAPI.API",
+      "ContentRoot": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qdRQ6aicSAX1ejFbrGRkrO9aXpaz8ahvDaHisYOLP01KoK7s+q3iqLHxwVCsTmPLc3b0j/mqo3A9tCn5P44EGA==",
+  "dgSpecHash": "Gl4tfCK5lAyTk5PJpilTg4ii93dM6X5pe9oIqeJPsFwZr5FQOLM3A/KyDppdc2d/cez6mU2zhNGgmgfdsZABAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rabalon\\Desktop\\MiniECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
+  "projectFilePath": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
