@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tntMD0WBV2hq48OkgHk/q1SqsTzWsI/JQDyRvHzpFrc=",
+  "Hash": "zfEnmVIUzqt2+g74tVAR9v4+UwBhcwxPwCQo4XGmTO4=",
   "Source": "ECommerceAPI.API",
   "BasePath": "_content/ECommerceAPI.API",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\0jcnmdtzo2191.jpg",
+      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\1-20231112154252.jpg",
       "SourceId": "ECommerceAPI.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
       "BasePath": "_content/ECommerceAPI.API",
-      "RelativePath": "resource/product-images/0jcnmdtzo2191.jpg",
+      "RelativePath": "resource/product-images/1-20231112154252.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\0jcnmdtzo2191.jpg"
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\1-20231112154252.jpg"
     },
     {
-      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\1.jpg",
+      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\1-20231112164818.jpg",
       "SourceId": "ECommerceAPI.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
       "BasePath": "_content/ECommerceAPI.API",
-      "RelativePath": "resource/product-images/1.jpg",
+      "RelativePath": "resource/product-images/1-20231112164818.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,15 +48,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\1.jpg"
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\1-20231112164818.jpg"
     },
     {
-      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\120231112010847.jpg",
+      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\1dgxf8qehlr81-20231112154252.jpg",
       "SourceId": "ECommerceAPI.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
       "BasePath": "_content/ECommerceAPI.API",
-      "RelativePath": "resource/product-images/120231112010847.jpg",
+      "RelativePath": "resource/product-images/1dgxf8qehlr81-20231112154252.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\120231112010847.jpg"
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\1dgxf8qehlr81-20231112154252.jpg"
     },
     {
-      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\120231112010855.jpg",
+      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\1dgxf8qehlr81-20231112164818.jpg",
       "SourceId": "ECommerceAPI.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
       "BasePath": "_content/ECommerceAPI.API",
-      "RelativePath": "resource/product-images/120231112010855.jpg",
+      "RelativePath": "resource/product-images/1dgxf8qehlr81-20231112164818.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,15 +82,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\120231112010855.jpg"
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\1dgxf8qehlr81-20231112164818.jpg"
     },
     {
-      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\1dgxf8qehlr81.jpg",
+      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\2-20231112164818.jpg",
       "SourceId": "ECommerceAPI.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
       "BasePath": "_content/ECommerceAPI.API",
-      "RelativePath": "resource/product-images/1dgxf8qehlr81.jpg",
+      "RelativePath": "resource/product-images/2-20231112164818.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\1dgxf8qehlr81.jpg"
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\2-20231112164818.jpg"
     },
     {
-      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\2.jpg",
+      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\6ioblq-20231112164818.jpg",
       "SourceId": "ECommerceAPI.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
       "BasePath": "_content/ECommerceAPI.API",
-      "RelativePath": "resource/product-images/2.jpg",
+      "RelativePath": "resource/product-images/6ioblq-20231112164818.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +116,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\2.jpg"
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\6ioblq-20231112164818.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\93q65tsik7m81-20231112164818.jpg",
+      "SourceId": "ECommerceAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "RelativePath": "resource/product-images/93q65tsik7m81-20231112164818.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\93q65tsik7m81-20231112164818.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\9rdro8mbglr81-20231112164818.png",
+      "SourceId": "ECommerceAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cingi\\Desktop\\MiniECommerce\\MiniECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "RelativePath": "resource/product-images/9rdro8mbglr81-20231112164818.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\9rdro8mbglr81-20231112164818.png"
     }
   ]
 }
