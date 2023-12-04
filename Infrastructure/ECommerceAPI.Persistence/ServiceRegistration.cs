@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Persistence.Repositories;
+using ECommerceAPI.Domain.Entities.Identity;
+using ECommerceAPI.Persistence.Services;
+using ECommerceAPI.Application.Abstractions.Services;
+using ECommerceAPI.Application.Abstractions.Services.Authentications;
 
 namespace ECommerceAPI.Persistence
 {
@@ -17,6 +21,16 @@ namespace ECommerceAPI.Persistence
         public static void AddPersistenceServices(this IServiceCollection services)     
         {
             services.AddDbContext<ECommerceAPIDbContext>(options => options.UseSqlServer(Configuration.ConnectionString), ServiceLifetime.Singleton);
+
+            services.AddIdentity<AppUser, AppRole>(options =>
+            {
+                options.Password.RequiredLength = 3;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireDigit = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+            }).AddEntityFrameworkStores<ECommerceAPIDbContext>();
+
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
             services.AddScoped<IOrderReadRepository, OrderReadRepository>();
@@ -29,6 +43,11 @@ namespace ECommerceAPI.Persistence
             services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
             services.AddScoped<IProductImageFileReadRepository, ProductImageFileReadRepository>();
             services.AddScoped<IProductImageFileWriteRepository, ProductImageFileWriteRepository>();
+
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IExternalAuthentication, AuthService>();
+            services.AddScoped<IInternalAuthentication, AuthService>();
         }
     }
 }

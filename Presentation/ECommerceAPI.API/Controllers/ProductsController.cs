@@ -1,20 +1,21 @@
-﻿using ECommerceAPI.Application.Abstractions.Storage;
-using ECommerceAPI.Application.Features.Commands.Product.CreateProduct;
+﻿using ECommerceAPI.Application.Features.Commands.Product.CreateProduct;
 using ECommerceAPI.Application.Features.Commands.Product.DeleteProduct;
 using ECommerceAPI.Application.Features.Commands.Product.UpdateProduct;
-using ECommerceAPI.Application.Features.Commands.ProductImageFile.DeleteProductImageFile;
-using ECommerceAPI.Application.Features.Commands.ProductImageFile.UploadProductImageFile;
 using ECommerceAPI.Application.Features.Queries.Product.GetAllProduct;
 using ECommerceAPI.Application.Features.Queries.Product.GetByIdProduct;
+using ECommerceAPI.Application.Features.Commands.ProductImageFile.DeleteProductImageFile;
+using ECommerceAPI.Application.Features.Commands.ProductImageFile.UploadProductImageFile;
 using ECommerceAPI.Application.Features.Queries.ProductImageFile.GetProductImageFiles;
-using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using MediatR;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ECommerceAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = "Admin")]
     public class ProductsController : ControllerBase
     {
         readonly IMediator _mediator;

@@ -70,7 +70,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.21, )"
+              "version": "[6.0.25, )"
             }
           },
           "imports": [
@@ -131,6 +131,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -194,9 +204,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.64.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.21, )"
+              "version": "[6.0.25, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
