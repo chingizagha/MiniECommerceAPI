@@ -15,7 +15,6 @@ namespace ECommerceAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(AuthenticationSchemes = "Admin")]
     public class ProductsController : ControllerBase
     {
         readonly IMediator _mediator;
@@ -32,6 +31,7 @@ namespace ECommerceAPI.API.Controllers
         }
 
         [HttpGet("{Id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> GetById([FromRoute] GetByIdProductQueryRequest getByIdProductQueryRequest)
         {
             GetByIdProductQueryResponse response =  await _mediator.Send(getByIdProductQueryRequest);
@@ -47,6 +47,8 @@ namespace ECommerceAPI.API.Controllers
         }
 
         [HttpPut]
+        [Authorize(AuthenticationSchemes = "Admin")]
+
         public async Task<IActionResult> Put([FromBody] UpdateProductCommandRequest updateProductCommandRequest)
         {
             UpdateProductCommandResponse response =  await _mediator.Send(updateProductCommandRequest);
@@ -54,6 +56,7 @@ namespace ECommerceAPI.API.Controllers
         }
 
         [HttpDelete("{Id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> Delete([FromRoute] DeleteProductCommandRequest deleteProductCommandRequest)
         {
             DeleteProductCommandResponse response =  await _mediator.Send(deleteProductCommandRequest);
@@ -62,7 +65,8 @@ namespace ECommerceAPI.API.Controllers
 
 
        [HttpPost("[action]")]
-       public async Task<IActionResult> Upload([FromQuery] UploadProductImageFileCommandRequest uploadProductImageFileCommandRequest)
+       [Authorize(AuthenticationSchemes = "Admin")]
+        public async Task<IActionResult> Upload([FromQuery] UploadProductImageFileCommandRequest uploadProductImageFileCommandRequest)
        {
             uploadProductImageFileCommandRequest.Files = Request.Form.Files;
             UploadProductImageFileCommandResponse response = await _mediator.Send(uploadProductImageFileCommandRequest);
@@ -78,6 +82,7 @@ namespace ECommerceAPI.API.Controllers
 
 
         [HttpDelete("[action]/{Id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> DeleteProductImage([FromRoute] DeleteProductImageFileCommandRequest deleteProductImageFileCommandRequest, [FromQuery] string imageId)
         {
             deleteProductImageFileCommandRequest.ImageId = imageId;
